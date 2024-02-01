@@ -1,0 +1,16 @@
+data:
+  sequence: '00'
+  main_path: 'dataset/sequences/{}/'
+  pose_path: 'dataset/sequences/00/gt_poses.txt'
+
+parameters:
+  rgb: False
+  rectified: True
+  detector: 'sift'
+  distance_threshold: 0.35
+  max_depth: 3000
+  subset: null
+  loop_closure:
+    offset: 200
+    stride: 3
+    threshold: 0.5
